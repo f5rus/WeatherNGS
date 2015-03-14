@@ -1,0 +1,61 @@
+/* 
+    Created on : 14.03.2015, 19:23:41
+    Author     : виталя
+*/
+
+body{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#map_canvas{
+    height: 450px;
+    width: 1000px;
+}
+
+.temp_current{
+    font-size: 36px;
+}
+
+.label_info{
+    padding-left: 20px;
+    background-image: url(images/weather.png);
+    background-repeat: no-repeat;
+}
+
+.information, .temp_current{               
+    float:left; 
+    display: inline-block;
+}
+
+.pressure_avg .label_info{
+    background-position: 0px -32px;
+}
+
+.wind_ru_full .label_info{
+    background-position: 0px -16px;
+}
+
+.marker_label{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.information{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}          
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;  
+}
